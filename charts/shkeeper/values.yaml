@@ -50,11 +50,11 @@ tron_shkeeper:
   port: 6000
 
 trx:
-  enabled: false
+  enabled: true
 usdt:
-  enabled: false
+  enabled: true
 usdc:
-  enabled: false
+  enabled: true
 
 #
 # Ethereum
@@ -71,11 +71,11 @@ ethereum_shkeeper:
   image: vsyshost/ethereum-shkeeper:1.1.4
 
 eth:
-  enabled: false
+  enabled: true
 eth_usdt:
-  enabled: false
+  enabled: true
 eth_usdc:
-  enabled: false
+  enabled: true
 
 #
 # Monero
@@ -83,7 +83,7 @@ eth_usdc:
 
 monero:
 
-  enabled: false
+  enabled: true
   image: vsyshost/monero:v0.18.1.2
   mainnet: true
 
@@ -112,11 +112,11 @@ bnb_shkeeper:
   image: vsyshost/bnb-shkeeper:1.1.2
 
 bnb:
-  enabled: false
+  enabled: true
 bnb_usdt:
-  enabled: false
+  enabled: true
 bnb_usdc:
-  enabled: false
+  enabled: true
 
 #
 # XRP
@@ -150,11 +150,11 @@ polygon_shkeeper:
   image: vsyshost/polygon-shkeeper:1.0.3
 
 matic:
-  enabled: false
+  enabled: true
 polygon_usdt:
-  enabled: false
+  enabled: true
 polygon_usdc:
-  enabled: false
+  enabled: true
 
 #
 # Avalanche
@@ -171,8 +171,8 @@ avalanche_shkeeper:
   image: vsyshost/avalanche-shkeeper:1.0.0
 
 avax:
-  enabled: false
+  enabled: true
 avalanche_usdt:
-  enabled: false
+  enabled: true
 avalanche_usdc:
-  enabled: false
+  enabled: true
